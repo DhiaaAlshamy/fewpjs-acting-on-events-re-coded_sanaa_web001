@@ -16,7 +16,7 @@ document.addEventListener("keydown", function(e) {
   else if(e.key==="ArrowRight"){
     moveDodgerRight();
   }
-  }
+  
 });
 function moveDodgerRight() {
   let rightNumbers = dodger.style.right.replace("px", "");
